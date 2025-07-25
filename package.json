@@ -1,0 +1,14 @@
+{
+  "name": "carteira",
+  "version": "1.0.0",
+  "description": "Projeto para prática de criação de testes unitários em JavaScript utilizando o framework Mocha. O objetivo é testar a classe Carteira, que simula uma carteira digital simples, permitindo consultar saldo, realizar depósitos e gastos, com validações de erros. Ideal para quem quer aprender estruturas de teste com describe e it e exercitar cenários positivos e negativos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Bruno Figueiredo",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^11.5.0"
+  }
+}
