@@ -4,11 +4,11 @@ class Carteira {
         this._saldo = 0;
     }
 
-    consutarSaldo() {
-        return this._saldo;
-    }
+   consultarSaldo() { 
+    return this._saldo; 
+}
 
-    depositar(valor) {
+    depositar(valor) { 
         if (valor <= 0 || typeof valor !== 'number') {
             throw new Error('O valor do depósito tem que ser positivo');
         }
